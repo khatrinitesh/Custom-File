@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.img_responsive{
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+.clr{
+	clear: both;
+	display: table;
+	content: "";
+}
+
+.container{
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul li{
+	/* display: inline-block; */
+	position: relative;
+}
+
+form input{
+	display: none;
+}
+
+form .custom_file::before{
+	display: inline-block;
+	cursor: pointer;
+	background-color: red;
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 3px;
+	content: "Upload file";
+	text-align: center;
+}
